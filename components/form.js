@@ -4,6 +4,7 @@ class ProductForm extends HTMLElement {
         this.attachShadow({ mode: 'open' });
         this.shadowRoot.innerHTML = `
             <form>
+            <input name="productid" placeholder="ID"/>
                 <input name="productName" placeholder="Nombre" />
                 <input name="productPrice" type="number" placeholder="Precio" />
                 <input name="productStock" type="number" placeholder="Stock" />
